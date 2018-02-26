@@ -1,0 +1,13 @@
+[user]
+	name = mlynch
+	email = mlynch@ebsco.com
+[push]
+	default = simple
+[core]
+	editor = vim
+	autocrlf = input
+[color]
+	ui = true
+[credential "https://github.com"]
+        helper = cache
+        username = gitmlynch
