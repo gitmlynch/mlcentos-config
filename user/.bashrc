@@ -25,6 +25,7 @@ alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
 alias osservlst='openstack server list'
 alias osimagelst='openstack image list'
+alias clr='clear'
 
 gosp () {
     nova get-password $1 $2
