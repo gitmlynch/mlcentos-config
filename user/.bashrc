@@ -23,3 +23,7 @@ alias .2='cd ../../'
 alias .3='cd ../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
+
+gosp () {
+    nova get-password $1 $2
+}
