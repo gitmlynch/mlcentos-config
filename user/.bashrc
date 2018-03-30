@@ -23,10 +23,15 @@ alias .2='cd ../../'
 alias .3='cd ../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
-alias osservlst='openstack server list'
-alias osimagelst='openstack image list'
+alias goss='openstack server list'
+alias gosi='openstack image list'
 alias clr='clear'
+alias sync='cd ~/sync'
 
 gosp () {
     nova get-password $1 $2
+}
+
+function gri {
+    grep -i "$1"
 }
