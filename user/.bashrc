@@ -27,6 +27,14 @@ alias goss='openstack server list'
 alias gosi='openstack image list'
 alias clr='clear'
 alias sync='cd ~/sync'
+alias gs='git status'
+alias gpl='git pull'
+alias gph='git push'
+alias gc='git commit -am'
+alias gd='git diff'
+alias vbash='vi ~/mlcentos-config/user/.bashrc'
+alias sbash='source ~/.bashrc'
+alias myconf='cd ~/mlcentos-config/user'
 
 gosp () {
     nova get-password $1 $2
