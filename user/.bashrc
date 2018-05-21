@@ -39,10 +39,15 @@ alias vbash='vi ~/mlcentos-config/user/.bashrc'
 alias sbash='source ~/.bashrc'
 alias myconf='cd ~/mlcentos-config/user'
 
+
 gosp () {
     nova get-password $1 $2
 }
 
 function gri {
     grep -i "$1"
+}
+
+prettyjson () {
+    cat $1 | python -m json.tool
 }
