@@ -39,6 +39,7 @@ alias vbash='vi ~/mlcentos-config/user/.bashrc'
 alias sbash='source ~/.bashrc'
 alias myconf='cd ~/mlcentos-config/user'
 
+# useless comment. delete when test is complete
 
 gosp () {
     nova get-password $1 $2
